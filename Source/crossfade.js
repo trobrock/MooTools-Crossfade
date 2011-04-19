@@ -28,7 +28,7 @@ var Crossfade = new Class({
     for (var i = 0; i < this.images.length; i++) {
       if (i in this.images) {
         this.images[i].setStyles({ top: 0, left: 0, position: "absolute" });
-        this.images[i].get('tween', { duration: this.options.duration });
+        this.images[i].set('tween', { duration: this.options.duration });
         if (i !== 0) { this.images[i].fade('hide'); }
       }
     }
