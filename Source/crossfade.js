@@ -1,3 +1,19 @@
+/*
+---
+description: Element class, Elements class, and basic dom methods.
+
+license: MIT-style
+
+authors:
+- Trae Robrock
+
+requires:
+- core/1.3: '*'
+
+provides: [Crossfade]
+
+*/
+
 var Crossfade = new Class({
   Implements: [Options, Chain],
   options: {
