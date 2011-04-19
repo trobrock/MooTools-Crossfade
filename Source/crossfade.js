@@ -1,6 +1,6 @@
 /*
 ---
-description: Element class, Elements class, and basic dom methods.
+description: Simple image crossfade plugin
 
 license: MIT-style
 
@@ -12,6 +12,7 @@ requires:
 
 provides: [Crossfade]
 
+...
 */
 
 var Crossfade = new Class({
